@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "T Shirt",
+      "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/t-shirt/k/s/a/l-all-rbcpon-sky-one-nb-nicky-boy-original-imagkrpgkazwg8kx.jpeg?q=70",
+      "brand": "Puma",
+      "price": 400,
+      "color": "blue",
+      "gender": "men",
+      "category": "topwear"
+    },
+    {
+      "name": "T-shirt",
+      "brand": "smartees",
+      "price": 179,
+      "gender": "male",
+      "category": "topwear",
+      "color": "black",
+      "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/t-shirt/t/e/0/l-st-theboys-black-smartees-original-imagnqszzzzyuzru.jpeg?q=70",
+      "id": 2
+    },
+    {
+      "name": "Jeans",
+      "brand": "Levi's",
+      "price": 1919,
+      "gender": "male",
+      "category": "bottomwear",
+      "color": "green",
+      "image": "https://rukminim1.flixcart.com/image/832/832/l3rmzrk0/jean/l/r/7/32-18298-1266-levi-s-original-imaget8jdugym5tm.jpeg?q=70",
+      "id": 3
+    }
+  ]
+}

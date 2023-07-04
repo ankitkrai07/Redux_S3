@@ -2,7 +2,6 @@ import {
   POST_PRODUCT_SUCCESS,
   PROCUCT_FAILURE,
   PRODUCT_REQUEST,
-  PRODUCT_SUCCESS,
 } from "./actionType";
 
 const initialState = {

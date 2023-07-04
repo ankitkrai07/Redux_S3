@@ -11,7 +11,7 @@ export const postProduct = (newProduct) => (dispatch) => {
     .post("http://localhost:8080/products", newProduct)
     .then((res) => {
       dispatch({ type: POST_PRODUCT_SUCCESS });
-      console.log(res.data);
+      // console.log(res.data);
     })
     .catch((err) => {
       dispatch({ type: PROCUCT_FAILURE, payload: err.message });

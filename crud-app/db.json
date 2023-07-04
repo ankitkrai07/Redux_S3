@@ -29,6 +29,16 @@
       "color": "green",
       "image": "https://rukminim1.flixcart.com/image/832/832/l3rmzrk0/jean/l/r/7/32-18298-1266-levi-s-original-imaget8jdugym5tm.jpeg?q=70",
       "id": 3
+    },
+    {
+      "name": "Men White Jeans",
+      "brand": "Comfit",
+      "price": 399,
+      "gender": "male",
+      "category": "bottomwear",
+      "color": "white",
+      "image": "https://rukminim1.flixcart.com/image/832/832/xif0q/jean/j/a/e/36-36c0mfit-plian-jeans-comfit-original-imag2dsfmckh8xfr-bb.jpeg?q=70",
+      "id": 4
     }
   ]
 }

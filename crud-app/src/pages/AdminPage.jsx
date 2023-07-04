@@ -50,6 +50,7 @@ export const AdminPage = () => {
             value={productData.name}
             onChange={handleChange}
             name="name"
+            required
           />
           <input
             type="text"
@@ -57,6 +58,7 @@ export const AdminPage = () => {
             value={productData.image}
             onChange={handleChange}
             name="image"
+            required
           />
           <input
             type="text"
@@ -64,6 +66,7 @@ export const AdminPage = () => {
             value={productData.brand}
             onChange={handleChange}
             name="brand"
+            required
           />
           <input
             type="number"
@@ -71,11 +74,13 @@ export const AdminPage = () => {
             value={productData.price}
             onChange={handleChange}
             name="price"
+            required
           />
           <select
             name="gender"
             value={productData.gender}
             onChange={handleChange}
+            required
           >
             <option value="">Select Gender</option>
             <option value="male">Men</option>
@@ -86,6 +91,7 @@ export const AdminPage = () => {
             name="category"
             value={productData.category}
             onChange={handleChange}
+            required
           >
             <option value="">Select Category</option>
             <option value="topwear">Top Wear</option>
@@ -96,6 +102,7 @@ export const AdminPage = () => {
             name="color"
             value={productData.color}
             onChange={handleChange}
+            required
           >
             <option value="">Select Color</option>
             <option value="green">Green</option>

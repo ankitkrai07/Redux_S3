@@ -38,18 +38,15 @@ const productFailure = () => {
   return { type: GET_PRODUCT_FAILURE };
 };
 
-export const getProducts = (objParam) => (dispatch) => {
-  dispatch(productRequest());
-  axios
-    .get(`http://localhost:8080/products`, objParam)
-    .then((res) => {
-      dispatch(productSuccess(res.data));
-      return res.data;
-    })
-    .catch(() => {
-      dispatch(productFailure());
-    });
-};
-// // if (window.Cypress) {
-// //   window.getProducts = getProducts;
-// // }
+// export const getProducts = (objParam) => (dispatch) => {
+//   dispatch(productRequest());
+//   axios
+//     .get(`http://localhost:8080/products`, objParam)
+//     .then((res) => {
+//       dispatch(productSuccess(res.data));
+//       return res.data;
+//     })
+//     .catch(() => {
+//       dispatch(productFailure());
+//     });
+// };

@@ -23,10 +23,10 @@ export const postProduct = (newProduct) => (dispatch) => {
 };
 
 //Get Products
-// export const getProducts = (dispatch) => {
-//   dispatch({ type: PRODUCT_REQUEST });
-//   axios.get("http://localhost:8080/products").then();
-// };
+export const getproducts = (dispatch) => {
+  dispatch({ type: PRODUCT_REQUEST });
+  axios.get("http://localhost:8080/products").then();
+};
 
 const productRequest = () => {
   return { type: GET_PRODUCT_REQUEST };

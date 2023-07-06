@@ -7,14 +7,14 @@ const initialState = {
   token: "",
 };
 
-export const reducer = (initialState, { type, payload }) => {
+export const reducer = (state = initialState, { type, payload }) => {
   switch (type) {
     case LOGIN_REQUEST:
       return { ...State, isLoading: true };
     case LOGIN_FAILURE:
       return { ...state, isError: true };
     case LOGIN_SUCCESS:
-      return { ...state };
+      return { ...state, isAuth: true, token: payload };
     case dafault:
       return state;
   }
